@@ -1,3 +1,47 @@
-h1 {
+:root {
+  --main-blue: #45567d;
+  --main-white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--main-blue)
+}
+
+.navList a {
+  display: block;
+  padding: 1.5rem;
+  color: var(--main-white);
+}
+
+.navList a:hover {
+  background-color: aqua;
+}
+
+#welcome-section {
   background-color: bisque;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+figure {
+  margin: 2rem;
 }
